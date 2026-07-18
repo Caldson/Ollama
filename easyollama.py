@@ -106,7 +106,7 @@ class EasyOllamaBeta:
         self.chat(f'成功编辑文件：{file_path}', role='system')
         print(f"[Edit {file_path}]")
 if __name__ == "__main__":
-    eob = EasyOllamaBeta(api_key='183c13563a0043d6b5c3e1f780a13b7e.3h_dao1mrZZtQwGtMWUhR-Yo')
+    eob = EasyOllamaBeta(api_key='')
     while True:
         message = input("Enter(/bye to exit): ")
         if message == "/bye":
